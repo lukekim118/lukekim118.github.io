@@ -1865,6 +1865,9 @@ input, select, textarea {
 			}
 
 		}
+#work{
+	text-align: center;
+}
 
 /* Wrapper */
 
@@ -2138,14 +2141,11 @@ input, select, textarea {
 	height: 600px;
 	width: 500px;
 	margin-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-#tesla{
-	height: 345px;
-	width: 450px;
-}
-#projectBox{
-	text-align: center;
-}
+
 /* Footer */
 
 	#footer {
